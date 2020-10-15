@@ -357,11 +357,16 @@ public class Lse
             {
                 System.out.println("Lista Vazia!");
             
-            } else if (this.primeiro == this.ultimo) {
+            } else if (posicao-1 == 0) {
             	
-            	 this.primeiro = novo;
-            	 novo.setProximo(ultimo);
+            	novo.setProximo(this.primeiro); 
+            	this.primeiro = novo;
             
+            } else if ( this.primeiro == this.ultimo ) {
+            
+           	 	this.primeiro = novo;
+           	 	novo.setProximo(ultimo);
+            	
             } else {
         	
                 Noh aux = null;
@@ -371,21 +376,22 @@ public class Lse
             	
             	}
             
-            if ( aux == null ) {
+            	if ( (aux == this.ultimo && pos == posicao-1) || pos < posicao-1 ) {
             	
             	System.out.println("Posição Inválida!");
              
-            } else if ( posicao == pos ) {
+            	} else if ( aux.getProximo().getProximo() == null && pos == posicao-1) {
             	
             	novo.setProximo(ultimo);
             	aux.setProximo(novo);
             	
-            } else {
+            	} else {
             	
-                	novo.setProximo(aux.getProximo().getProximo());
-                	aux.setProximo(novo);
+            		aux.setProximo(novo);
+            		novo.setProximo(aux.getProximo().getProximo());
+                	
 
-            }
+            	}
             
             }
         	
