@@ -378,27 +378,19 @@ public class Lse
             
             	if ( (aux == this.ultimo && pos == posicao-1) || pos < posicao-1 ) {
             	
-            	System.out.println("Posição Inválida!");
+            		System.out.println("Posição Inválida!");
              
-            	} else if ( aux.getProximo().getProximo() == null && pos == posicao-1) {
-            	
-            	novo.setProximo(ultimo);
-            	aux.setProximo(novo);
-            	
             	} else {
-            	
+            		
+            		novo.setProximo(aux.getProximo());
             		aux.setProximo(novo);
-            		novo.setProximo(aux.getProximo().getProximo());
-                	
 
             	}
             
             }
         	
         }
-        
- 
-    	
+            	
     }
     
     
