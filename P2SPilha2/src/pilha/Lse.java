@@ -1,4 +1,21 @@
 /*
+
+ 
+ 
+	Grupo Aula 14/10/20
+	Inserção por Posição na FIla
+	
+	Paulo Viana - 5146017
+	Thiara Gonçalves Fagundes - 5101027
+	João Lucas Alves de Lima - 5146434
+	Victor Aparecido Pereira - 5150349
+ 
+ 
+ 
+ 
+ 
+ 
+
  * Projeto.: Lista Simplesmente Ligada/Encadeada
  * Autor...: Professor Dreco
  * Classe..: Lse
