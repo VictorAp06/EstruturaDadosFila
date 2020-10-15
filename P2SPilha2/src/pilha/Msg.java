@@ -117,11 +117,11 @@ public class Msg
     {
         limpatela();
         msg_central("Menu Principal - Escolha a sua opcao");
-        msg_nl("           01. Inserir            06. Especial 06        11. Especial 11");
-        msg_nl("           02. Remover            07. Especial 07        12. Especial 12");
-        msg_nl("           03. Consultar          08. Especial 08        13. Especial 13");
-        msg_nl("           04. Inicializar        09. Especial 09        14. Especial 14");
-        msg_nl("           05. Tamanho            10. Especial 10        15. Especial 15");
+        msg_nl("           01. Inserir            06. Inserir por Posição (FILA)        11. Especial 11");
+        msg_nl("           02. Remover            07. Especial 07        				12. Especial 12");
+        msg_nl("           03. Consultar          08. Especial 08        				13. Especial 13");
+        msg_nl("           04. Inicializar        09. Especial 09        				14. Especial 14");
+        msg_nl("           05. Tamanho            10. Especial 10        				15. Especial 15");
         msg_central(" 0. Finalizar");
     }
 

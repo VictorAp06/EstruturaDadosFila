@@ -160,7 +160,7 @@ public class Main
                 case 6: // Especial 06
                     
                     Msg.limpatela();
-                    Msg.msg_central ("Especial 06");
+                    Msg.msg_central ("Inserir por Posição (FILA)");
                     
                     posicao = Msg.solicita_posicao();
                     pilha.inserir_posi(posicao);
